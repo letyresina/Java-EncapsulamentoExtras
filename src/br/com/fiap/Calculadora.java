@@ -20,7 +20,7 @@ public class Calculadora {
 	
 	public void setNum2(int num2) {
 		try {
-			if (num2 >= 0) {
+			if (num2 > 0) {
 				this.num2 = num2;
 			}
 			else {
